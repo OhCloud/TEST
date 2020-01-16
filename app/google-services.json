@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "729405096701",
+    "firebase_url": "https://test-b6123.firebaseio.com",
+    "project_id": "test-b6123",
+    "storage_bucket": "test-b6123.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729405096701:android:1deac0433121b1adaa3494",
+        "android_client_info": {
+          "package_name": "ada.capstone.WEARwolfww"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729405096701-4to8ggdu64aqgjgh670ftk6gh79knlnu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ada.capstone.WEARwolfww",
+            "certificate_hash": "b55687d6cdf1432ab549288cdb3e762e0e9b4e30"
+          }
+        },
+        {
+          "client_id": "729405096701-e7r37d78nd18chr901cp3okacqad6ne9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbLh_jUFPrpiNMNCwBWAySopV4A5KgqJM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "729405096701-e7r37d78nd18chr901cp3okacqad6ne9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
