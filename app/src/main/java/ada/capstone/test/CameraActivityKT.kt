@@ -18,7 +18,7 @@ import androidx.camera.core.*
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.LifecycleOwner
-import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_camera_activity_kt.*
 import java.io.File
 
 private const val REQUEST_CODE_PERMISSIONS = 881
@@ -26,7 +26,7 @@ private const val REQUEST_CODE_PERMISSIONS = 881
 private val REQUIRED_PERMISSIONS = arrayOf(Manifest.permission.CAMERA)
 
 
-class MainActivity : AppCompatActivity(), LifecycleOwner {
+class CameraActivityKT : AppCompatActivity(), LifecycleOwner {
 
     private lateinit var viewFinder: TextureView
 
