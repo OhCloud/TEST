@@ -11,7 +11,8 @@
     <application
         android:allowBackup="true"
         android:label="@string/app_name">
-        <activity android:name=".GalleryActivity"></activity>
+        <activity android:name=".CameraX"></activity>
+        <activity android:name=".GalleryActivity" />
         <activity
             android:name=".MainActivity"
             android:clearTaskOnLaunch="true"

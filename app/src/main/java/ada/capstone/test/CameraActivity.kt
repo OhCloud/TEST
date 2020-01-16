@@ -18,7 +18,7 @@ import androidx.camera.core.*
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.LifecycleOwner
-import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_camera.*
 import java.io.File
 
 private const val REQUEST_CODE_PERMISSIONS = 881
@@ -26,15 +26,15 @@ private const val REQUEST_CODE_PERMISSIONS = 881
 private val REQUIRED_PERMISSIONS = arrayOf(Manifest.permission.CAMERA)
 
 
-class MainActivity : AppCompatActivity(), LifecycleOwner {
+class CameraActivity  : AppCompatActivity(), LifecycleOwner { //TODO what is lifecycle
 
     private lateinit var viewFinder: TextureView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_camera)
 
-        viewFinder = findViewById(R.id.find_view)
+        viewFinder = findViewById(R.id.finder_view)
 
 
         // Request camera permissions
@@ -87,7 +87,7 @@ class MainActivity : AppCompatActivity(), LifecycleOwner {
 
         // Build the image capture use case and attach button click listener
         val imageCapture = ImageCapture(imageCaptureConfig)
-        cap_button.setOnClickListener {
+        capture_button.setOnClickListener {
             val file = File(
                 externalMediaDirs.first(),
                 "${System.currentTimeMillis()}.jpg"
